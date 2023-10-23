@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teknologi Informasi</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg bg-dark mb-2" data-bs-theme="dark">
+	<div class="container">
+    <a class="navbar-brand" href="#">Tekinfo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./registrasi.html">Registrasi</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Prodi
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">MI</a></li>
+            <li><a class="dropdown-item" href="#">TKOM</a></li>
+            <li><a class="dropdown-item" href="#">TRPL</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Cari</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+	<div class="container">
+		<header class="bg-primary py-5 text-center">
+			<h1 class="text-white">Teknologi Informasi</h1>
+			<a href="./contact-us.html" class="btn btn-dark">Contact Us</a>
+		</header>
+		<main>
+			<div class="row">
+				<div class="col-lg-2">
+					<nav class="nav flex-column">
+						<a href="./index.html" class="nav-link"><i class="bi bi-house-fill"></i> Home</a>
+						<a href="./registrasi.html" class="nav-link"><i class="bi bi-person-fill-add"></i> Registrasi</a>
+						<a href="./prodi.html" class="nav-link"><i class="bi bi-folder-symlink-fill"></i> Prodi</a>
+						<a href="./contact-us.html" class="nav-link"><i class="bi bi-telephone-outbound-fill"></i> Contact Us</a>
+						<a href="./login.html" class="nav-link"><i class="bi bi-file-lock-fill"></i> Login</a>
+					</nav>
+				</div>
+				<div class="col-lg-6 py-3">
+					<h2>Registrasi Mahasiswa</h2>
+					<form>
+					
+						<div class="mb-3">
+						  <label for="exampleFormControlInput1" class="form-label">Nama</label>
+						  <input type="email" class="form-control" id="exampleFormControlInput1">
+						</div>
+						
+						<div class="mb-3">
+						  <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
+						  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						
+						<div class="mb-3">
+							<label class="form-label">Jenis Kelamin</label>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gender" id="laki-laki">
+								<label class="form-check-label" for="flexRadioDefault1">
+									Laki-laki
+								</label>
+							</div>
+							
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gender" id="perempuan">
+								<label class="form-check-label" for="flexRadioDefault2">
+									Perempuan
+								</label>
+							</div>
+						</div>
+						
+						<div class="mb-3">
+							<label class="form-label">Hobi</label>
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="hobi1">
+							  <label class="form-check-label" for="hobi1">
+								Berenang
+							  </label>
+							</div>
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="hobi2">
+							  <label class="form-check-label" for="hobi2">
+								Bersepeda
+							  </label>
+							</div>
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="hobi3">
+							  <label class="form-check-label" for="hobi3">
+								Bernyanyi
+							  </label>
+							</div>
+						</div>
+						
+						<div class="mb-3">
+						<label class="form-label">Pilih Prodi</label>
+						<select class="form-select">
+						  <option selected>Pilih Prodi</option>
+						  <option value="1">Manajemen Informatika</option>
+						  <option value="2">Teknik Komputer</option>
+						  <option value="3">Teknologi Rekayasa Perangkat Lunak</option>
+						</select>
+						</div>
+						<button type="submit" class="btn btn-danger mb-4"><i class="bi bi-file-earmark-plus"></i> Simpan</button>
+					</form>
+				</div>
+			</div>
+		
+		</main>
+		
+	</div>
+	
+	<footer class="bg-dark text-white text-center py-3">
+		Copyright &copy; 2023 By Sukran Deva Pratama
+	</footer>
+	
+    
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
